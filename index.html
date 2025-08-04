@@ -14,10 +14,33 @@
     <meta property="og:image:alt" content="Github Portfolio Site Preview">
 
     <title>Lowel Jay Magno</title>
-    <link rel="stylesheet" href="/style.css"/>
+    <link rel="stylesheet" href="style.css"/>
 </head>
-<body>
-    <h1>Hello, World!</h1>
-    <p>This is my first webpage.</p>
+<body class="w-full h-full bg-white dark:bg-zinc-900 transition-al">
+    <header class="w-full flex justify-center px-4">
+       <nav class="h-[4rem] w-full max-w-[calc(900px-2rem)] flex justify-between">
+            <div class="p-0.5 h-full flex items-center text-xl font-bold">
+                <a href="/" class="hover:text-fuchsia-700 dark:text-white">Lowel Jay Magno</a>
+            </div>
+            <!-- <ul class="p-0.5 h-full flex items-center gap-4">
+                <li>
+                    <a href="/resume" class="hover:text-fuchsia-700">Resume</a>
+                </li>
+            </ul> -->
+        </nav>  
+    </header>
+    <main class="w-full flex justify-center px-4" style="height: auto; min-height: calc(100% - 8rem);">
+         <div class="w-full max-w-[calc(900px-2rem)] flex flex-col gap-2">
+             <h1 class="font-bold text-2xl dark:text-zinc-400">Hello!, I'm Lowel Jay Magno</h1>
+             <p>I am a web developer with a passion for creating dynamic and responsive web applications. I enjoy working with the latest web technologies and continuously improving my skills. My goal is to build user-friendly and accessible web experiences. I'm currently seeking new opportunities to apply my skills and contribute to exciting projects. Hope to connect with like-minded individuals and collaborate on innovative solutions!.</p>
+             <p>You can visit my <a href="/resume" class="text-fuchsia-700 hover:underline">Resume</a> to see my most relevant works.</p>
+         </div>
+    </main>
+    <footer class="h-[4rem] w-full flex justify-center items-center px-4">
+        <div class="w-full max-w-[calc(900px-2rem)]">
+            Copyright © 2025, Lowel Jay Magno; All Rights Reserved.
+        </div>
+    </footer>
+    <script src="/script.js"></script>
 </body>
 </html>
